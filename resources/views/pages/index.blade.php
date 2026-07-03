@@ -20,13 +20,13 @@
             <div class="mt-6 md:mt-8 text-lg md:text-xl">
 
                 <div class="flex items-center pb-6">
-                    <i class="fa-solid fa-calendar-days w-5 text-2xl"></i> 
+                    <i class="fa-solid fa-calendar-days w-5 text-2xl md:text-3xl"></i> 
                     <span class="italic text-sm md:text-xl ml-1">Du 16 au 19 juillet 2026</span>
                 </div>
                 
                 <div class="flex items-start">
 
-                    <i class="fa-solid fa-location-dot w-5 text-2xl text-center"></i>
+                    <i class="fa-solid fa-location-dot w-5 text-2xl md:text-3xl text-center"></i>
                    
                     <div class="ml-1">
                         <p class="text-sm md:text-xl font-medium">CEGEP John Abbott</p>
