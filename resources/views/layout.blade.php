@@ -18,7 +18,7 @@
 
     <x-header />
 
-    <main>
+    <main class="px-4 py-8 max-w-7xl mx-auto">
         {{ $slot }}
     </main>
 

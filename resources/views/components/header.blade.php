@@ -14,7 +14,7 @@
             <div>
                 <img src="{{ asset('icons/logo_ubf_white.svg') }}" alt="Logo" class="h-12" />
             </div>
-            <span class="text-white font-bold text-xl md:text-base p-0">
+            <span class="text-white font-bold text-xl md:text-2xl p-0">
                 CBFE 2026
             </span>
         @else
@@ -23,7 +23,7 @@
                     <img src="{{ asset('icons/logo_ubf_white.svg') }}" alt="Logo" class="h-12" />
                 </a>
             </div>
-            <span class="text-white font-bold text-xl md:text-base hover:underline underline-offset-4 p-0">
+            <span class="text-white font-bold text-xl md:text-2xl hover:underline underline-offset-4 p-0">
                 <a href="{{ route('home') }}">CBFE 2026</a>
             </span>
         @endif
@@ -38,7 +38,7 @@
         
         <a href="#">
             <i class="fa-solid fa-globe"></i> 
-            <span class="ml-1">{{ strtoupper($oppositeLang) }}</span>
+            <span>{{ strtoupper($oppositeLang) }}</span>
         </a>
         
     </div>
