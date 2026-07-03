@@ -1,3 +1,5 @@
+@vite('resources/css/flags.css')
+
 <x-layout>
 
     <x-slot name="title">
@@ -18,12 +20,12 @@
 
             <div class="mx-12">
                 <p class="text-white text-base font-bold md:text-xl italic">« Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. »</p>
-                <p class="text-white text-sm md:text-base text-right pr-4 md:pr-4 italic">- Jean 6.68</p>
+                <p class="text-white text-sm md:text-base text-right pr-4 md:pr-4 italic font-medium">- Jean 6.68</p>
             </div>
 
             <!-- Dates and location -->
 
-            <div class="mt-6 md:mt-8 text-lg md:text-xl">
+            <div class="mt-6 md:mt-8 text-lg md:text-xl text-white">
 
                 <div class="flex items-center pb-4">
                     <i class="fa-solid fa-calendar-days w-5 text-2xl md:text-3xl"></i> 
@@ -44,7 +46,7 @@
 
         </div>
 
-        <div class="mt-2 p-4">
+        <div class="mt-6 p-4">
 
             <div class="p-6 bg-slate-900/60 rounded-xl shadow-lg">
 
@@ -57,5 +59,42 @@
         </div>
 
     </div>
+
+    <div class="flex flex-col gap-4 my-8 pt-4 text-center x-space-4 bg-slate-900/50 rounded-xl shadow-lg">
+
+        <div>
+            <p class="text-2xl font-medium">Pays représentés</p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-4 pb-8 items-center text-3xl">
+
+            <div>
+                <span class="fi fi-ca"></span>
+                <p class="text-xs pt-2">Canada</p>
+            </div>
+
+            <div>
+                <span class="fi fi-fr"></span>
+                <p class="text-xs pt-2">France</p>
+            </div>
+
+            <div>
+                <span class="fi fi-ch"></span>
+                <p class="text-xs pt-2">Suisse</p>
+            </div>
+
+            <div>
+                <span class="fi fi-be"></span>
+                <p class="text-xs pt-2">Belgique</p>
+            </div>
+
+            <div>
+                <span class="fi fi-us"></span>
+                <p class="text-xs pt-2">États-Unis</p>
+            </div>
+
+        </div>
+        
+    </div> 
 
 </x-layout>
