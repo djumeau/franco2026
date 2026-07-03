@@ -25,3 +25,9 @@ img {
     pointer-events: none;
     user-select: none;
 }
+
+/* Hides Alpine.js elements from blinking on Layout shift */
+
+[x-cloak] {
+    display: none !important;
+}
