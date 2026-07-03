@@ -22,11 +22,15 @@
             <source src="{{ asset('videos/2026_cbu_conf_ete_bg.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+
+        <!-- Dark Overlay -->
+        <div class="fixed top-0 left-0 w-full h-full bg-black/60 -z-5"></div>
+
     @endif
 
     <x-header />
 
-    <main class="px-4 py-8 max-w-7xl mx-auto">
+    <main class="relative px-4 py-8 max-w-7xl mx-auto">
         {{ $slot }}
     </main>
 

@@ -1,6 +1,6 @@
-<footer class="mt-auto w-full bg-slate-900 py-6 text-center text-sm text-slate-400">
+<footer class="z-20 mt-auto w-full bg-slate-900 py-6 text-center text-sm text-slate-400">
 
-    <div class="mx-auto max-w-7xl px-4">
+    <div class=" mx-auto max-w-7xl px-4">
 
         <!-- Row 1: Navigation Links -->
         <nav class="mb-4 flex justify-center gap-x-6 font-medium text-white">
