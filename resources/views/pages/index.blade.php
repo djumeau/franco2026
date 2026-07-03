@@ -8,7 +8,7 @@
 
         <div class="p-4">
 
-            <h1 class="text-4xl md:text-5xl font-bold leading-10 md:leading-14 pb-4 md:pb-6">Bienvenue à la conférence biblique francophone d'été 2026!</h1>
+            <h1 class="text-5xl md:text-6xl font-bold leading-13 md:leading-16 pb-4 md:pb-6">Bienvenue à la conférence biblique francophone d'été 2026!</h1>
 
             <div class="mx-4">
                 <p class="text-white text-base font-bold md:text-2xl italic">« Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. »</p>
@@ -19,7 +19,7 @@
 
             <div class="mt-6 md:mt-8 text-lg md:text-xl">
 
-                <div class="flex items-center pb-6">
+                <div class="flex items-center pb-4">
                     <i class="fa-solid fa-calendar-days w-5 text-2xl md:text-3xl"></i> 
                     <span class="italic text-sm md:text-xl ml-1">Du 16 au 19 juillet 2026</span>
                 </div>
@@ -29,7 +29,7 @@
                     <i class="fa-solid fa-location-dot w-5 text-2xl md:text-3xl text-center"></i>
                    
                     <div class="ml-1">
-                        <p class="text-sm md:text-xl font-medium">CEGEP John Abbott</p>
+                        <p class="text-sm md:text-xl font-medium hover:underline underline-offset-3"><a href="https://maps.app.goo.gl/dWh3xsbuUeMgwUNK9" target="_blank">CEGEP John Abbott</a></p>
                         <p class="text-sm md:text-base">Ste-Anne-de-Bellevue, Québec</p>
                     </div>
 
