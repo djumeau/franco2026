@@ -19,5 +19,9 @@
 
     --color-primary: oklch(0.65 0.15 160);
     --color-primary-foreground: oklch(0.12 0 0);
+}
 
+img {
+    pointer-events: none;
+    user-select: none;
 }

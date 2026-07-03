@@ -19,11 +19,12 @@
 
         <div>
 
-            <div class="p-6">
+            <div class="p-6 bg-slate-900/80 rounded-lg">
 
-                <img src="{{ asset('images/2022_cbu_conf_ete_groupe.jpg') }}" alt="Participants de la conférence biblique francophone d'été 2022" class="rounded mx-auto mb-4">
+                <img src="{{ asset('images/2022_cbu_conf_ete_groupe.jpg') }}" alt="Participants de la conférence biblique francophone d'été 2022" class="mx-auto rounded w-9/10 pb-4">
 
                 <p>Ce thème a comme but de joindre des questions sur la vie souvent posées (parfois philosophiques)  autant par les non-croyants et les croyants, en fournissant des réponses bibliques qui pointent vers  Jésus. Les messages donneront des ou les pratiques sur comment vivre sa vie en Christ, ou  présenteront ce que ça veut dire être un chrétien (pour les nouveaux).</p>
+
             </div>
 
         </div>
