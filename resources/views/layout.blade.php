@@ -9,7 +9,7 @@
 
     <link rel="icon" type="image/svg+xml" href="{{ asset('logo_ubf_favicon.svg') }}">
 
-    <title>{{ $title ?? 'Conférence Biblique Francophone 2026' }}</title>
+    <title>{{ $title ?? "Conférence Biblique Francophone d'été 2026" }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
