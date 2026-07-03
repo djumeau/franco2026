@@ -16,6 +16,14 @@
 
 <body class="bg-black font-sans text-white">
 
+     @if (request()->routeIs('home'))
+        <!-- Static Background Video -->
+        <video autoplay loop muted playsinline class="fixed top-0 left-0 -z-10 h-full w-full object-cover">
+            <source src="{{ asset('videos/2026_cbu_conf_ete_bg.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    @endif
+
     <x-header />
 
     <main class="px-4 py-8 max-w-7xl mx-auto">

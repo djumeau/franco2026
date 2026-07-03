@@ -5,7 +5,7 @@
 @endphp
 
 <nav
-    class="flex items-center border-b px-4 bg-white/50 justify-between py-4 backdrop-blur-md sticky top-0 left-0 z-50">
+    class="flex items-center border-b px-4 bg-black/50 justify-between py-4 backdrop-blur-md sticky top-0 left-0 z-50">
 
     <!-- Logo -->
     <div class="flex items-center">
@@ -14,7 +14,7 @@
             <div>
                 <img src="{{ asset('icons/logo_ubf_white.svg') }}" alt="Logo" class="h-12" />
             </div>
-            <span class="text-white font-bold text-xl md:text-2xl p-0">
+            <span class="text-white font-bold text-xl md:text-2xl p-0 ml-1">
                 CBFE 2026
             </span>
         @else
@@ -23,7 +23,7 @@
                     <img src="{{ asset('icons/logo_ubf_white.svg') }}" alt="Logo" class="h-12" />
                 </a>
             </div>
-            <span class="text-white font-bold text-xl md:text-2xl hover:underline underline-offset-4 p-0">
+            <span class="text-white font-bold text-xl md:text-2xl hover:underline underline-offset-4 p-0 ml-1">
                 <a href="{{ route('home') }}">CBFE 2026</a>
             </span>
         @endif
