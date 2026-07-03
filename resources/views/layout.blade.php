@@ -16,9 +16,13 @@
 
 <body class="bg-black font-sans text-white">
 
+    <x-header />
+
     <main>
         {{ $slot }}
     </main>
+
+    <x-footer />
     
 </body>
 
