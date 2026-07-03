@@ -12,23 +12,26 @@
 
             <div class="mx-4">
                 <p class="text-white text-base font-bold md:text-2xl italic">« Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. »</p>
-                <p class="text-white text-sm md:text-xl text-right pr-4 md:pr-4">- Jean 6.68</p>
+                <p class="text-white text-sm md:text-base text-right pr-4 md:pr-4 italic">- Jean 6.68</p>
             </div>
 
             <!-- Dates and location -->
 
             <div class="mt-6 md:mt-8 text-lg md:text-xl">
 
-                <div>
-                    <p class="pb-4">
-                        <span class="italic text-sm md:text-xl">Du 16 au 19 juillet 2026</span>
-                    </p>
+                <div class="flex items-center pb-6">
+                    <i class="fa-solid fa-calendar-days w-5 text-2xl"></i> 
+                    <span class="italic text-sm md:text-xl ml-1">Du 16 au 19 juillet 2026</span>
                 </div>
                 
-                <div>
-                    
-                   <p class="text-sm md:text-2xl text-bold">CEGEP John Abbott</p>
-                   <p class="text-sm md:text-xl">Ste-Anne-de-Bellevue, Québec</p>
+                <div class="flex items-start">
+
+                    <i class="fa-solid fa-location-dot w-5 text-2xl text-center"></i>
+                   
+                    <div class="ml-1">
+                        <p class="text-sm md:text-xl font-medium">CEGEP John Abbott</p>
+                        <p class="text-sm md:text-base">Ste-Anne-de-Bellevue, Québec</p>
+                    </div>
 
                 </div>
             </div>
