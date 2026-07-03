@@ -22,9 +22,6 @@
             <source src="{{ asset('videos/2026_cbu_conf_ete_bg.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-
-         <!-- Dark Overlay (Optional but recommended for text readability) -->
-        <div class="absolute top-0 left-0 h-full w-full bg-black/55 -z-5"></div>
     @endif
 
     <x-header />
