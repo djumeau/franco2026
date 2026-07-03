@@ -20,7 +20,6 @@
             </a>
         @endif
 
-
     </div>
 
     <!-- Navigation Links -->
