@@ -38,7 +38,7 @@
         
         <a href="#">
             <i class="fa-solid fa-globe"></i> 
-            <span>{{ strtoupper($oppositeLang) }}</span>
+            <span class="hover:underline underline-offset-4">{{ strtoupper($oppositeLang) }}</span>
         </a>
         
     </div>

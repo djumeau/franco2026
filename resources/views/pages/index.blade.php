@@ -4,14 +4,20 @@
         Conférence biblique francophone d'été 2026 | Acceuil
     </x-slot>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 items-center text-left text-white/85">
+    <div class="grid grid-cols-1 md:grid-cols-2 text-left text-white/85">
 
-        <div class="p-4">
+        <div>
 
-            <h1 class="text-5xl md:text-6xl font-bold leading-13 md:leading-16 pb-4 md:pb-6">Bienvenue à la conférence biblique francophone d'été 2026!</h1>
+            <h1 class="text-base text-center md:text-xl font-bold leading-6 md:leading-6 pb-4 md:pb-6 mx-12">Bienvenue à la conférence biblique francophone d'été 2026!</h1>
 
-            <div class="mx-4">
-                <p class="text-white text-base font-bold md:text-2xl italic">« Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. »</p>
+            <div class="flex justify-center items-center mx-4 pb-4">
+
+                <img src="{{ asset('images/2026_franco_conf_title_white_transparent.png') }}" alt="Titre" class="align-center w-6/10">
+
+            </div>
+
+            <div class="mx-12">
+                <p class="text-white text-base font-bold md:text-xl italic">« Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. »</p>
                 <p class="text-white text-sm md:text-base text-right pr-4 md:pr-4 italic">- Jean 6.68</p>
             </div>
 
@@ -38,7 +44,7 @@
 
         </div>
 
-        <div class="p-4">
+        <div class="mt-2 p-4">
 
             <div class="p-6 bg-slate-900/60 rounded-xl shadow-lg">
 
