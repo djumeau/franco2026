@@ -3,7 +3,7 @@
     <div class=" mx-auto max-w-7xl px-4">
 
         <!-- Row 1: Navigation Links -->
-        <nav class="mb-4 flex justify-center gap-x-6 font-medium text-white">
+        <nav class="mb-4 flex justify-center gap-x-6 text-white">
             <a href="{{ route('about') }}" class="hover:text-white hover:underline underline-offset-2 transition-colors">À propos</a>
             <a href="{{ route('contact') }}" class="hover:text-white hover:underline underline-offset-2 transition-colors">Contact</a>
         </nav>
