@@ -29,7 +29,7 @@
                     <i class="fa-solid fa-location-dot w-5 text-2xl md:text-3xl text-center"></i>
                    
                     <div class="ml-1">
-                        <p class="text-sm md:text-xl font-medium hover:underline underline-offset-3"><a href="https://maps.app.goo.gl/dWh3xsbuUeMgwUNK9" target="_blank">CEGEP John Abbott</a></p>
+                        <p class="text-sm md:text-xl font-medium hover:underline underline-offset-3"><a href="https://maps.app.goo.gl/dWh3xsbuUeMgwUNK9" target="_blank" alt="CEGEP John Abbott sur Google Maps">CEGEP John Abbott</a></p>
                         <p class="text-sm md:text-base">Ste-Anne-de-Bellevue, Québec</p>
                     </div>
 
