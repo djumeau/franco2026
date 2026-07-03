@@ -12,7 +12,7 @@
 
             <div class="flex justify-center items-center mx-4 pb-4">
 
-                <img src="{{ asset('images/2026_franco_conf_title_white_transparent.png') }}" alt="Titre" class="align-center w-6/10">
+                <img src="{{ asset('images/2026_franco_conf_title_white_transparent.png') }}" alt="Titre" class="align-center w:6/10 md:w-8/10">
 
             </div>
 
