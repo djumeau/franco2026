@@ -8,7 +8,7 @@
 
         <div>
 
-            <h1 class="text-base text-center md:text-xl font-bold leading-6 md:leading-6 pb-4 md:pb-6 mx-12">Bienvenue à la conférence biblique francophone d'été 2026!</h1>
+            <h1 class="text-base text-center md:text-xl font-bold leading-6 md:leading-6 pb-4 md:pb-6 mx-12 italic">Bienvenue à la conférence biblique francophone d'été 2026!</h1>
 
             <div class="flex justify-center items-center mx-4 pb-4">
 
