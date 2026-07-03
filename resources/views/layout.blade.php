@@ -24,7 +24,7 @@
         </video>
 
          <!-- Dark Overlay (Optional but recommended for text readability) -->
-        <div class="fixed top-0 left-0 h-full w-full bg-black/75 -z-5"></div>
+        <div class="absolute top-0 left-0 h-full w-full bg-black/55 -z-5"></div>
     @endif
 
     <x-header />
