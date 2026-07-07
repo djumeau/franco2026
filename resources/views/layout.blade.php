@@ -12,6 +12,7 @@
     <title>{{ $title ?? "Conférence Biblique Francophone d'été 2026" }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
 </head>
 
 <body class="bg-black font-sans text-white">

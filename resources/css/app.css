@@ -4,6 +4,8 @@
 
 @import './components/btn.css' layer(components);
 
+@import './flags.css';
+
 @source "../views/**/*.blade.php";
 @source "../**/*.blade.php";
 @source "../**/*.js";

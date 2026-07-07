@@ -1,9 +1,7 @@
-@vite('resources/css/flags.css')
-
 <x-layout>
 
     <x-slot name="title">
-        Conférence biblique francophone d'été 2026 | Acceuil
+        Conférence biblique francophone d&apos;été 2026 | Acceuil
     </x-slot>
 
     <div class="grid grid-cols-1 md:grid-cols-2 text-left text-white/85">

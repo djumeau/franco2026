@@ -25,4 +25,10 @@ export default defineConfig({
             ignored: ["**/storage/framework/views/**"],
         },
     },
+    // Add this resolve block to handle node_modules cleanly
+    resolve: {
+        alias: {
+            "~flag-icons": "flag-icons",
+        },
+    },
 });
