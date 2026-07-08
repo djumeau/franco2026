@@ -10,7 +10,7 @@
     <!-- Logo -->
     <div class="flex items-center">
 
-        @if (request()->routeIs('home'))
+        @if (request()->routeIs('index'))
             <div>
                 <img src="{{ asset('icons/logo_ubf_white.svg') }}" alt="Logo" class="h-12" />
             </div>
@@ -19,12 +19,12 @@
             </span>
         @else
             <div>
-                <a href="{{ route('home') }}">
+                <a href="{{ route('index') }}">
                     <img src="{{ asset('icons/logo_ubf_white.svg') }}" alt="Logo" class="h-12" />
                 </a>
             </div>
             <span class="text-white font-bold text-xl md:text-2xl hover:underline underline-offset-4 p-0 ml-1">
-                <a href="{{ route('home') }}">CBFE 2026</a>
+                <a href="{{ route('index') }}">CBFE 2026</a>
             </span>
         @endif
 
@@ -36,7 +36,7 @@
         <a href="{{ route('about') }}" class="text-white hover:underline underline-offset-4">À propos</a>
         <a href="{{ route('contact') }}" class="text-white hover:underline underline-offset-4">Contact</a>
         
-        <a href="#">
+        <a href="{{ route('lang.switch', ['locale' => $oppositeLang]) }}">
             <i class="fa-solid fa-globe"></i> 
             <span class="hover:underline underline-offset-4">{{ strtoupper($oppositeLang) }}</span>
         </a>

@@ -9,7 +9,7 @@
 
     <link rel="icon" type="image/svg+xml" href="{{ asset('logo_ubf_favicon.svg') }}">
 
-    <title>{{ $title ?? "Conférence Biblique Francophone d'été 2026" }}</title>
+    <title>{{ $title ?? "Conférence biblique francophone d'été 2026" }}</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
@@ -17,7 +17,7 @@
 
 <body class="bg-black font-sans text-white">
 
-     @if (request()->routeIs('home'))
+     @if (request()->routeIs('index'))
         <!-- Static Background Video -->
         <video autoplay loop muted playsinline class="fixed top-0 left-0 -z-10 h-full w-full object-cover">
             <source src="{{ asset('videos/2026_cbu_conf_ete_bg.mp4') }}" type="video/mp4">
