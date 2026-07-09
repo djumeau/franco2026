@@ -10,7 +10,18 @@ return [
     'location' => 'CEGEP John Abbott',
     'city' => 'Sainte-Anne-de-Bellevue, Québec',
 
-    'introduction' => 'This theme aims to address questions about life that are often asked (sometimes philosophically) by both non-believers and believers, providing biblical answers that point to Jesus. The messages will offer practical guidance on how to live your life in Christ, or present what it means to be a Christian (especiallyfor newcomers).',
+    'introduction' => [
+
+        'text-1' => 'This theme aims to address questions about life that are often asked (sometimes philosophically) by both non-believers and believers, providing biblical answers that point to Jesus. The messages will offer practical guidance on how to live your life in Christ, or present what it means to be a Christian (especially for newcomers).',
+
+        'text-2' => 'Particularly, we want to reflecton on the following questions:',
+
+        'item-1' => 'Why do we need Jesus? (Lk 15)',
+        'item-2' => 'Why believe in Jesus? (Lk 6)',
+        'item-3' => 'Why do we suffer? (Lk 9)',
+        'item-4' => 'Why do we hope in Jesus? (1Pe 1:3-4)',
+
+    ],
 
     'participating-countries' => 'Participating Countries',
 

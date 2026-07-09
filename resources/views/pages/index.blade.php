@@ -50,9 +50,16 @@
 
                 <img src="{{ asset('images/2022_cbu_conf_ete_groupe.jpg') }}" alt="Participants de la conférence biblique francophone d'été 2022" class="mx-auto rounded-xl w-9/10">
 
-                <p class="pt-4">{{ __('index.introduction') }}</p>
+                <p class="pt-4">{{ __('index.introduction.text-1') }}</p>
 
-                <p class="pt-4">Especially the following questions:</p>
+                <p class="pt-4">{{ __('index.introduction.text-2') }}</p>
+
+                <ul class='list-disc pl-6 pr-4'>
+                    <li>{{ __('index.introduction.item-1') }}</li>
+                    <li>{{ __('index.introduction.item-2') }}</li>
+                    <li>{{ __('index.introduction.item-3') }}</li>
+                    <li>{{ __('index.introduction.item-4') }}</li>
+                </ul>
 
             </div>
 
