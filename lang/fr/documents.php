@@ -44,7 +44,7 @@ return [
                     'passage' => 'Jean 9.1-41',
                     'link' => 'https://www.biblegateway.com/passage/?search=Jean%209%3A1-41&version=SG21',
                     'type' => 'pdf',
-                    'filename' => 'jn_09.1-41.q.fr.pdf',
+                    'filename' => 'jn_09.01-41.q.fr.pdf',
                 ],
 
                 'file-2b' => [
@@ -52,7 +52,7 @@ return [
                     'passage' => 'Jean 9.1-41',
                     'link' => 'https://www.biblegateway.com/passage/?search=Jean%209%3A1-41&version=SG21',
                     'type' => 'docx',
-                    'filename' => 'jn_09.1-41.q.fr.docx',
+                    'filename' => 'jn_09.01-41.q.fr.docx',
                 ],
             ],
         ],          

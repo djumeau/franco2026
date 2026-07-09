@@ -45,7 +45,7 @@ return [
                     'passage' => 'John 9:1-41',
                     'link' => 'https://www.biblegateway.com/passage/?search=John%209%3A1-41&version=NIV',
                     'type' => 'pdf',
-                    'filename' => 'jn_09.1-41.q.en.pdf',
+                    'filename' => 'jn_09.01-41.q.en.pdf',
                 ],
 
                 'file-2b' => [
@@ -53,7 +53,7 @@ return [
                     'passage' => 'John 9:1-41',
                     'link' => 'https://www.biblegateway.com/passage/?search=John%209%3A1-41&version=NIV',
                     'type' => 'docx',
-                    'filename' => 'jn_09.1-41.q.en.docx',
+                    'filename' => 'jn_09.01-41.q.en.docx',
                 ],
             ],
         ],          
