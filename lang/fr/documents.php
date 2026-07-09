@@ -2,6 +2,7 @@
 
 return [
     'title' => 'Documents',
+    'empty-categories' => 'Documents non disponibles.',
 
     'categories' => [
 

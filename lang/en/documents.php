@@ -3,6 +3,7 @@
 return [
 
     'title' => 'Documents',
+    'empty-categories' => 'No document categories available.',
 
     'categories' => [
 
