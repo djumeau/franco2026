@@ -32,6 +32,8 @@
 
     <!-- Navigation Links -->
     <div class="flex items-center space-x-4">
+
+        <p><a href="{{route('program')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('program.title')}}</a></p>
         
         <a href="{{ route('lang.switch', ['locale' => $oppositeLang]) }}">
             <i class="fa-solid fa-globe"></i> 

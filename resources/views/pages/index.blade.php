@@ -16,9 +16,9 @@
 
             </div>
 
-            <div class="mx-12">
+            <div class="mx-14">
                 <p class="text-white text-base font-bold md:text-xl italic">{{ __('index.quote') }}</p>
-                <p class="text-white text-sm md:text-base text-right pr-4 md:pr-4 italic font-medium">- {{ __('index.verse') }}</p>
+                <p class="text-white text-sm md:text-base text-right md:pr-4 italic font-medium">- {{ __('index.verse') }}</p>
             </div>
 
             <!-- Dates and location -->
@@ -58,13 +58,15 @@
 
     </div>
 
-    <div class="flex flex-col gap-4 my-8 pt-4 text-center x-space-4 bg-slate-900/50 rounded-xl shadow-lg">
+    <div class="flex flex-col gap-8 my-8 pt-4 text-center x-space-4 bg-slate-900/50 rounded-xl shadow-lg">
 
+        <!-- Row 1 -->
         <div>
             <p class="text-2xl font-medium">{{ __('index.participating-countries') }}</p>
         </div>
 
-        <div class="flex flex-wrap justify-center gap-x-6 gap-y-4 pb-8 items-center text-3xl">
+        <!-- Row 2 -->
+        <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 pb-8 items-center text-3xl">
 
             <div>
                 <span class="fi fi-ca"></span>
