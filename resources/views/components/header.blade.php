@@ -39,8 +39,6 @@
             <a href="{{route('program')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('program.title')}}</a>
         @endif
 
-        |&nbsp;
-
         @if(request()->routeIs('documents'))
             <span class="text-base font-bold text-white">{{__('documents.title')}}</span>
         @else
