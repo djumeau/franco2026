@@ -2,12 +2,8 @@
 
     <div class=" mx-auto max-w-7xl px-4">
 
-        <!-- Row 1: Navigation Links -->
-        <nav class="mb-4 flex justify-center gap-x-6 text-white">
-            <a href="{{ route('about') }}" class="hover:text-white hover:underline underline-offset-2 transition-colors">À propos</a>
-            <a href="{{ route('contact') }}" class="hover:text-white hover:underline underline-offset-2 transition-colors">Contact</a>
-        </nav>
-
+        <!-- Row 1: Social Media Links -->
+        
         <!-- Row 2: Copyright -->
         <p class="text-xs text-slate-300">
             &copy; {{ date('Y') }} <a href="https://www.montrealubf.org" class="hover:text-white hover:underline underline-offset-2 transition-colors">CBU Montreal UBF</a>
