@@ -3,7 +3,8 @@
 return [
 
     'title' => 'Documents',
-    'empty-categories' => 'No document categories available.',
+    'empty-categories' => 'Documents not available.',
+    'download' => 'Download',
 
     'categories' => [
 
@@ -23,18 +24,36 @@ return [
             'name' => 'Questionnaires',
             'directory' => 'documents/questionnaires',
             'files' => [
-                'file-1' => [
-                    'name' => 'You Have The Words of Eternal Life',
+                'file-1a' => [
+                    'name' => 'You Have the Words of Eternal Life',
                     'passage' => 'John 6:25-71',
+                    'link' => 'https://www.biblegateway.com/passage/?search=John%206%3A25-71&version=NIV',
                     'type' => 'pdf',
                     'filename' => 'jn_06.25-71.q.fr.pdf',
                 ],
+
+                'file-1b' => [
+                    'name' => 'You Have the Words of Eternal Life',
+                    'passage' => 'John 6:25-71',
+                    'link' => 'https://www.biblegateway.com/passage/?search=John%206%3A25-71&version=NIV',
+                    'type' => 'docx',
+                    'filename' => 'jn_06.25-71.q.fr.docx',
+                ],
                 
-                'file-2' => [
+                'file-2a' => [
                     'name' => 'Jesus, the Light of the World',
                     'passage' => 'John 9:1-41',
+                    'link' => 'https://www.biblegateway.com/passage/?search=John%209%3A1-41&version=NIV',
                     'type' => 'pdf',
                     'filename' => 'jn_09.1-41.q.fr.pdf',
+                ],
+
+                'file-2b' => [
+                    'name' => 'Jesus, the Light of the World',
+                    'passage' => 'Jean 9:1-41',
+                    'link' => 'https://www.biblegateway.com/passage/?search=John%209%3A1-41&version=NIV',
+                    'type' => 'docx',
+                    'filename' => 'jn_09.1-41.q.fr.docx',
                 ],
             ],
         ],          

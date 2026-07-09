@@ -3,6 +3,7 @@
 return [
     'title' => 'Documents',
     'empty-categories' => 'Documents non disponibles.',
+    'download' => 'Télécharger',
 
     'categories' => [
 
@@ -22,18 +23,36 @@ return [
             'name' => 'Questionnaires',
             'directory' => 'documents/questionnaires',
             'files' => [
-                'file-1' => [
+                'file-1a' => [
                     'name' => 'Tu as les paroles de la vie éternelle',
                     'passage' => 'Jean 6.25-71',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%206%3A25-71&version=SG21',
                     'type' => 'pdf',
                     'filename' => 'jn_06.25-71.q.fr.pdf',
                 ],
+
+                'file-1b' => [
+                    'name' => 'Tu as les paroles de la vie éternelle',
+                    'passage' => 'Jean 6.25-71',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%206%3A25-71&version=SG21',
+                    'type' => 'docx',
+                    'filename' => 'jn_06.25-71.q.fr.docx',
+                ],
                 
-                'file-2' => [
+                'file-2a' => [
                     'name' => 'Jésus, la lumière du monde',
                     'passage' => 'Jean 9.1-41',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%209%3A1-41&version=SG21',
                     'type' => 'pdf',
                     'filename' => 'jn_09.1-41.q.fr.pdf',
+                ],
+
+                'file-2b' => [
+                    'name' => 'Jésus, la lumière du monde',
+                    'passage' => 'Jean 9.1-41',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%209%3A1-41&version=SG21',
+                    'type' => 'docx',
+                    'filename' => 'jn_09.1-41.q.fr.docx',
                 ],
             ],
         ],          
