@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\View\View;
 
-class HomeController extends Controller
+class indexController extends Controller
 {
     public function index(): View
     {

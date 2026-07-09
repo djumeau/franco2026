@@ -5,7 +5,21 @@
         <!-- Row 1: Links -->
 
         <div class="pb-4 text-white">
-            <a href="{{route('program')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('program.title')}}</a>
+
+            @if(request()->routeIs('program'))
+                <span class="font-bold text-white">{{__('program.title')}}</span>
+            @else
+                <a href="{{route('program')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('program.title')}}</a>
+            @endif
+
+            |
+
+            @if(request()->routeIs('documents'))
+                <span class="font-bold text-white">{{__('documents.title')}}</span>
+            @else
+                <a href="{{route('documents')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('documents.title')}}</a>
+            @endif
+            
         </div>
 
         <!-- Row 2: Copyright -->

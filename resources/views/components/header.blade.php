@@ -33,7 +33,19 @@
     <!-- Navigation Links -->
     <div class="flex items-center space-x-4">
 
-        <p><a href="{{route('program')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('program.title')}}</a></p>
+        @if(request()->routeIs('program'))
+            <span class="text-base font-bold text-white">{{__('program.title')}}</span>
+        @else
+            <a href="{{route('program')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('program.title')}}</a>
+        @endif
+
+        |&nbsp;
+
+        @if(request()->routeIs('documents'))
+            <span class="text-base font-bold text-white">{{__('documents.title')}}</span>
+        @else
+            <a href="{{route('documents')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('documents.title')}}</a>
+        @endif
         
         <a href="{{ route('lang.switch', ['locale' => $oppositeLang]) }}">
             <i class="fa-solid fa-globe"></i> 

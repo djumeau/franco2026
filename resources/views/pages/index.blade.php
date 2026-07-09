@@ -52,25 +52,37 @@
 
                 <p class="pt-4">{{ __('index.introduction') }}</p>
 
+                <p class="pt-4">Especially the following questions:</p>
+
             </div>
 
         </div>
 
     </div>
 
-    <div class="flex flex-col gap-8 my-8 pt-4 text-center x-space-4 bg-slate-900/50 rounded-xl shadow-lg">
+    <div id="countries" class="w-full md:w-max md:mx-auto my-8 pt-4 text-center x-space-4 bg-slate-900/50 rounded-xl shadow-lg">
 
         <!-- Row 1 -->
-        <div>
+        <div class="pb-4">
             <p class="text-2xl font-medium">{{ __('index.participating-countries') }}</p>
         </div>
 
         <!-- Row 2 -->
-        <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 pb-8 items-center text-3xl">
+        <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 px-8 pb-8 items-center text-3xl">
+
+            <div>
+                <span class="fi fi-be"></span>
+                <p class="text-xs pt-2">{{ __('index.countries.Belgium') }}</p>
+            </div>
 
             <div>
                 <span class="fi fi-ca"></span>
                 <p class="text-xs pt-2">{{ __('index.countries.Canada') }}</p>
+            </div>
+
+            <div>
+                <span class="fi fi-us"></span>
+                <p class="text-xs pt-2">{{ __('index.countries.USA') }}</p>
             </div>
 
             <div>
@@ -81,16 +93,6 @@
             <div>
                 <span class="fi fi-ch"></span>
                 <p class="text-xs pt-2">{{ __('index.countries.Switzerland') }}</p>
-            </div>
-
-            <div>
-                <span class="fi fi-be"></span>
-                <p class="text-xs pt-2">{{ __('index.countries.Belgium') }}</p>
-            </div>
-
-            <div>
-                <span class="fi fi-us"></span>
-                <p class="text-xs pt-2">{{ __('index.countries.USA') }}</p>
             </div>
 
         </div>
