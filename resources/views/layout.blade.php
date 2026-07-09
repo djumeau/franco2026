@@ -17,15 +17,28 @@
 
 <body class="bg-black font-sans text-white">
 
-     @if (request()->routeIs('index'))
-        <!-- Static Background Video -->
+    <!-- Static Background Video -->
+    @if (request()->routeIs('index'))
+        
         <video autoplay loop muted playsinline class="fixed top-0 left-0 -z-10 h-full w-full object-cover">
             <source src="{{ asset('videos/2026_cbu_conf_ete_bg.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
+            {{__('video-support')}}
         </video>
 
         <!-- Dark Overlay -->
         <div class="fixed top-0 left-0 w-full h-full bg-black/60 -z-5"></div>
+
+    @endif
+
+    @if (request()->routeIs('documents'))
+        
+        <video autoplay loop muted playsinline class="fixed top-0 left-0 -z-10 h-full w-full object-cover">
+            <source src="{{ asset('videos/bible_reading_generic.mp4') }}" type="video/mp4">
+            {{__('video-support')}}
+        </video>
+
+        <!-- Dark Overlay -->
+        <div class="fixed top-0 left-0 w-full h-full bg-black/80 -z-5"></div>
 
     @endif
 

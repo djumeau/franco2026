@@ -3,6 +3,9 @@
 return [
     'site-name' => 'Francophone Summer Bible Conference 2026',
     'title' => 'Home',
+
+    'video-support' => 'Your browser does not support the video tag',
+
     'welcome' => 'Welcome to the Francophone Summer Bible Conference 2026!',
     'quote' => '« Lord, to whom shall we go? You have the words of eternal life. »',
     'verse' => 'John 6:68',

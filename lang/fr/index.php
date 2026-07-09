@@ -3,6 +3,9 @@
 return [
     'site-name' => 'Conférence biblique francophone d\'été 2026',
     'title' => 'Accueil',
+
+    'video-support' => 'Votre navigateur ne permet pas de visionner la vidéo.',
+
     'welcome' => 'Bienvenue à la conférence biblique francophone d\'été 2026!',
     'quote' => '« Seigneur, à qui irions-nous ? Tu as les paroles de la vie éternelle. »',
     'verse' => 'Jean 6.68',

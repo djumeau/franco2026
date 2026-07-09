@@ -4,10 +4,13 @@
         {{ __('index.site-name') }} | {{ __('documents.title') }}
     </x-slot>
 
-    <div class='container'>
-
-        {{-- Render the main page title --}}
-        <h1 class="max-w-4xl mx-auto font-bold text-2xl">{{ $pageTitle }}</h1>
+        {{-- Page Header --}}
+        <header class="text-center mb-8">
+            <h1 class="text-3xl text-white tracking-tight sm:text-3xl uppercase">
+                {{ $pageTitle }}
+            </h1>
+            <div class="mt-1 w-43 h-1 bg-white mx-auto"></div>
+        </header>
 
         {{-- Safety check: Ensure categories exist --}}
         @if(empty($categories))
@@ -50,7 +53,5 @@
             @endforeach
 
         @endif
-
-    </div>
    
 </x-layout>
