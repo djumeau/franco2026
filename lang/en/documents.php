@@ -50,7 +50,7 @@ return [
 
                 'file-2b' => [
                     'name' => 'Jesus, the Light of the World',
-                    'passage' => 'Jean 9:1-41',
+                    'passage' => 'John 9:1-41',
                     'link' => 'https://www.biblegateway.com/passage/?search=John%209%3A1-41&version=NIV',
                     'type' => 'docx',
                     'filename' => 'jn_09.1-41.q.fr.docx',
