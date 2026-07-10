@@ -1,6 +1,7 @@
 @php
 
     $en = app()->isLocale('en');
+    $filepath = __('prayertopics.download.filepath');
 
 @endphp
 
@@ -24,7 +25,7 @@
     <!-- Centered PDF Download Container -->
     <div class="mb-8 flex flex-col items-center justify-center">
         <a 
-            href="{{asset(__('prayertopics.download.filepath'))}}" 
+            href="{{asset($filepath)}}" 
             target="_blank" 
             download 
             class="inline-flex items-center gap-3 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-700 shadow-xs transition-colors duration-150 hover:bg-gray-50 hover:text-red-600 focus:outline-hidden focus:ring-4 focus:ring-gray-100"
