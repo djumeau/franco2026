@@ -44,16 +44,18 @@
         <x-card icon="icons\logo_ubf_blue.svg" title="Conference Attendees" alt="Prayer Topics for attendees">
 
             <div class="flex flex-justify text-center p-0">
+
                 <div>
                     <i class="fa-solid fa-house text-black"></i>
                 </div>
 
                 <div class='pl-1 text-black'>Chapter Name</div>
+
             </div>
             
         </x-card>
 
-        <!-- Passing static strings -->
+        <!-- World Missions -->
         <x-card icon="fa-solid fa-globe" title="World Missions" alt="World Missions">
 
             <div class="flex flex-justify text-center">
@@ -66,19 +68,29 @@
             
         </x-card>
 
-        <!-- Passing static strings -->
+        <!-- Country - Belgium -->
         <x-card icon="fi fi-be" title="Belgium" alt="Belguim Prayer Topics">
 
-            <div class="flex flex-justify text-center">
-                <div>
-                    <i class="fa-solid fa-house text-black"></i>
+            <div class="flex flex-col justify-left">
+                
+                <div id="Brussels Chapter" class="flex align-center justify-left">
+
+                    <div>
+                        <i class="fa-solid fa-cross text-black"></i>
+                    </div>
+
+                    <div class='pl-1 text-black'>Bruxelles</div>
+
                 </div>
 
-                <div class='pl-1 text-black'>Bruxelles</div>
+                <div class="pl-10">
 
-                <ul class="list-disc">
-                    <li>Item 1</li>
-                </ul>
+                    <ul class="list-disc text-black">
+                        <li>Item 1</li>
+                    </ul>
+
+                </div>
+
             </div>
             
         </x-card>
