@@ -19,6 +19,14 @@
             @else
                 <a href="{{route('documents')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('documents.title')}}</a>
             @endif
+
+            |
+
+            @if(request()->routeIs('prayertopics'))
+                <span class="font-bold text-white">{{__('prayertopics.title')}}</span>
+            @else
+                <a href="{{route('documents')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics.title')}}</a>
+            @endif
             
         </div>
 

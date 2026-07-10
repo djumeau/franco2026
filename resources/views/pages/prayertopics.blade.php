@@ -7,21 +7,21 @@
 <x-layout>
 
     <x-slot name="title">
-        {{ __('index.site-name') }} | {{ __('program.title') }}
+        {{ __('index.site-name') }} | {{ __('documents.title') }}
     </x-slot>
 
     {{-- Page Header --}}
     <header class="text-center mb-8">
 
         <h1 class="text-xl text-white tracking-tight md:text-2xl uppercase">
-            {{ __('program.title') }}
+            {{ __('prayertopics.title') }}
         </h1>
 
-        <div class="mt-1 {{ $en ? 'w-23 md:w-28' : 'w-30 md:w-36' }} h-1 bg-white mx-auto"></div>
+        <div class="mt-1 {{ $en ? 'w-33 md:w-40' : 'w-40 md:w-48' }} h-1 bg-white mx-auto"></div>
 
     </header>
 
-    {{-- Program --}}
+    {{-- Prayer Topics - Conference --}}
 
 
 

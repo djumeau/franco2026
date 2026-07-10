@@ -31,18 +31,24 @@
     </div>
 
     <!-- Navigation Links -->
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center space-x-4 text-sm md:text-base text-white">
 
         @if(request()->routeIs('program'))
-            <span class="text-base font-bold text-white">{{__('program.title')}}</span>
+            <span class="font-bold">{{__('program.title')}}</span>
         @else
             <a href="{{route('program')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('program.title')}}</a>
         @endif
 
         @if(request()->routeIs('documents'))
-            <span class="text-base font-bold text-white">{{__('documents.title')}}</span>
+            <span class="font-bold">{{__('documents.title')}}</span>
         @else
             <a href="{{route('documents')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('documents.title')}}</a>
+        @endif
+
+        @if(request()->routeIs('prayertopics'))
+            <span class="text-base font-bold text-white">{{__('prayertopics.title')}}</span>
+        @else
+            <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics.title')}}</a>
         @endif
         
         <a href="{{ route('lang.switch', ['locale' => $oppositeLang]) }}">
