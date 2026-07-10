@@ -41,7 +41,7 @@
     <div class='w-full grid grid-cols-1 gap-4 md:gap-6 md:grid-cols-3'>
 
         <!-- Conference Prayer Topics -->
-        <x-card icon="icons\logo_ubf_blue.svg" title="Conference Attendees" alt="Prayer Topics for attendees">
+        <x-card icon="icons/logo_ubf_blue.svg" title="Conference Attendees" alt="Prayer Topics for attendees">
 
             <div class="flex flex-justify text-center p-0">
 
