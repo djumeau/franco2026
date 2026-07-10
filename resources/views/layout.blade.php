@@ -22,7 +22,7 @@
         
         <video autoplay loop muted playsinline class="fixed top-0 left-0 -z-10 h-full w-full object-cover">
             <source src="{{ asset('videos/2026_cbu_conf_ete_bg.mp4') }}" type="video/mp4">
-            {{__('video-support')}}
+            {{__('index.video-support')}}
         </video>
 
         <!-- Dark Overlay -->
@@ -34,11 +34,23 @@
         
         <video autoplay loop muted playsinline class="fixed top-0 left-0 -z-10 h-full w-full object-cover">
             <source src="{{ asset('videos/bible_reading_generic.mp4') }}" type="video/mp4">
-            {{__('video-support')}}
+            {{__('index.video-support')}}
         </video>
 
         <!-- Dark Overlay -->
         <div class="fixed top-0 left-0 w-full h-full bg-black/80 -z-5"></div>
+
+    @endif
+
+    @if (request()->routeIs('prayertopics'))
+        
+        <video autoplay loop muted playsinline class="fixed top-0 left-0 -z-10 h-full w-full object-cover">
+            <source src="{{ asset('videos/men_praying_720p.mp4') }}" type="video/mp4">
+            {{__('index.video-support')}}
+        </video>
+
+        <!-- Dark Overlay -->
+        <div class="fixed top-0 left-0 w-full h-full bg-black/50 -z-5"></div>
 
     @endif
 
