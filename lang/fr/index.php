@@ -19,10 +19,10 @@ return [
 
         'text-2' => 'Notamment, nous allions réfléchir sur les questions suivantes :',
 
-        'item-1' => 'Pourquoi avons-nous besoin de Jésus ? (Lc 15)',
-        'item-2' => 'Pourquoi croire en Jésus ? (Lc 6)',
-        'item-3' => 'Pourquoi souffrons-nous ? (Lc 9)',
-        'item-4' => 'Pourquoi mettre notre espérance en Jésus ? (1 Pi 1.3-4)',
+        'item-1' => 'Pourquoi avons-nous besoin de Jésus ? (Luc 15)',
+        'item-2' => 'Pourquoi croire en Jésus ? (Luc 6)',
+        'item-3' => 'Pourquoi souffrons-nous ? (Luc 9)',
+        'item-4' => 'Pourquoi mettre notre espérance en Jésus ? (1 Pierre 1.3-4)',
 
     ],
 
