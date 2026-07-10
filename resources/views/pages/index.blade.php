@@ -44,7 +44,7 @@
 
         </div>
 
-        <div class="mt-6 p-4">
+        <div>
 
             <div class="p-6 bg-slate-900/60 rounded-xl shadow-lg">
 
