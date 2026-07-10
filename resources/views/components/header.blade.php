@@ -1,7 +1,10 @@
 @php
-    $oppositeLang = app()->isLocale('en') === 'en' ? 'fr' : 'en';
+
+    $oppositeLang = (app()->getLocale('en') === 'en' ? 'fr' : 'en');
 
 @endphp
+
+<!-- Current Locale: {{app()->getLocale()}} -->
 
 <nav class="border-b px-4 bg-black/50 justify-between backdrop-blur-md sticky top-0 left-0 z-50">
 
@@ -52,6 +55,8 @@
             @else
                 <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics.title')}}</a>
             @endif
+
+            <!-- Language to switch: {{$oppositeLang}} -->
             
             <a href="{{ route('lang.switch', ['locale' => $oppositeLang]) }}">
                 <i class="fa-solid fa-globe"></i> 
@@ -74,7 +79,7 @@
 <div id='mobile-menu' class='sticky hidden flex-col top-20 left-0 right-0 md:hidden bg-slate-900 text-white/90 py-4 space-y-2 z-50'>
     
     <!-- Navigation Links - Mobile -->
-    <div class='flex flex-col pl-4'>
+    <div class='flex flex-col pl-4 gap-y-4'>
 
         @if(request()->routeIs('program'))
             <span class="font-bold">{{__('program.title')}}</span>
@@ -93,6 +98,8 @@
         @else
             <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics.title')}}</a>
         @endif
+
+         <!-- Language to switch: {{$oppositeLang}} -->
         
         <a href="{{ route('lang.switch', ['locale' => $oppositeLang]) }}">
             <i class="fa-solid fa-globe"></i> 

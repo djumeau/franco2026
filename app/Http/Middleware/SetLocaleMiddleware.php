@@ -17,9 +17,12 @@ class SetLocaleMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        // Read the locale string stored by your controller
+        // If the user has not manually clicked a language switcher yet, use the new default
         if (Session::has('locale')) {
             App::setLocale(Session::get('locale'));
+        } else {
+            // This will now dynamically read 'fr' from your .env file
+            App::setLocale(config('app.locale', 'fr')); 
         }
 
         return $next($request);
