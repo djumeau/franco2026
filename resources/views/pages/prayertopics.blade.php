@@ -23,6 +23,22 @@
 
     {{-- Prayer Topics - Conference --}}
 
+    <div class='container'>
+
+        <!-- Passing static strings -->
+        <x-card icon="fa-solid fa-globe" title="Conference" alt="Prayer Topics for attendees">
+
+            <div class="flex flex-justify text-center">
+                <div>
+                    <i class="fa-solid fa-house text-black"></i>
+                </div>
+
+                <div class='pl-1 text-black'>I will pray for you.</div>
+            </div>
+            
+        </x-card>
+
+    </div>
 
 
 </x-layout>
