@@ -51,9 +51,9 @@
             @endif
 
             @if(request()->routeIs('prayertopics'))
-                <span class="text-base font-bold text-white">{{__('prayertopics.title')}}</span>
+                <span class="text-base font-bold text-white">{{__('prayertopics/general.title')}}</span>
             @else
-                <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics.title')}}</a>
+                <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics/general.title')}}</a>
             @endif
 
             <!-- Language to switch: {{$oppositeLang}} -->
@@ -94,9 +94,9 @@
         @endif
 
         @if(request()->routeIs('prayertopics'))
-            <span class="text-base font-bold text-white">{{__('prayertopics.title')}}</span>
+            <span class="text-base font-bold text-white">{{__('prayertopics/general.title')}}</span>
         @else
-            <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics.title')}}</a>
+            <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics/general.title')}}</a>
         @endif
 
          <!-- Language to switch: {{$oppositeLang}} -->

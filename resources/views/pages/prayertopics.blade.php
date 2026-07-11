@@ -1,21 +1,24 @@
 @php
 
     $en = app()->isLocale('en');
-    $filepath = __('prayertopics.download.filepath');
+
+    $pageTitle = __('prayertopics/general.title');
+    $downloadTitle = __('prayertopics/general.download.title');
+    $filepath = __('prayertopics/general.download.filepath');
 
 @endphp
 
 <x-layout>
 
     <x-slot name="title">
-        {{ __('index.site-name') }} | {{ __('documents.title') }}
+        {{ __('index.site-name') }} | {{ $pageTitle }}
     </x-slot>
 
     {{-- Page Header --}}
     <header class="text-center mb-8">
 
         <h1 class="text-xl text-white tracking-tight md:text-2xl uppercase">
-            {{ __('prayertopics.title') }}
+            {{ $pageTitle }}
         </h1>
 
         <div class="mt-1 {{ $en ? 'w-33 md:w-40' : 'w-40 md:w-48' }} h-1 bg-white mx-auto"></div>
@@ -33,68 +36,13 @@
             <!-- Font Awesome PDF Icon -->
             <i class="fa-solid fa-file-pdf text-lg text-red-500 transition-colors duration-150 group-hover:text-red-600"></i>
             
-            <span>{{__('prayertopics.download.title')}}</span>
+            <span>{{$downloadTitle}}</span>
         </a>
     </div>
 
-    {{-- Prayer Topics - Conference --}}
+    {{-- Prayer Topics - Button Layout --}}
 
     <div class='w-full grid grid-cols-1 gap-4 md:gap-6 md:grid-cols-3'>
-
-        <!-- Conference Prayer Topics -->
-        <x-card icon="icons/logo_ubf_blue.svg" title="Conference Attendees" alt="Prayer Topics for attendees">
-
-            <div class="flex flex-justify text-center p-0">
-
-                <div>
-                    <i class="fa-solid fa-house text-black"></i>
-                </div>
-
-                <div class='pl-1 text-black'>Chapter Name</div>
-
-            </div>
-            
-        </x-card>
-
-        <!-- World Missions -->
-        <x-card icon="fa-solid fa-globe" title="World Missions" alt="World Missions">
-
-            <div class="flex flex-justify text-center">
-                <div>
-                    <i class="fa-solid fa-house text-black"></i>
-                </div>
-
-                <div class='pl-1 text-black'>Chapter Name</div>
-            </div>
-            
-        </x-card>
-
-        <!-- Country - Belgium -->
-        <x-card icon="fi fi-be" title="Belgium" alt="Belguim Prayer Topics">
-
-            <div class="flex flex-col justify-left">
-                
-                <div id="Brussels Chapter" class="flex align-center justify-left">
-
-                    <div>
-                        <i class="fa-solid fa-cross text-black"></i>
-                    </div>
-
-                    <div class='pl-1 text-black'>Bruxelles</div>
-
-                </div>
-
-                <div class="pl-10">
-
-                    <ul class="list-disc text-black">
-                        <li>Item 1</li>
-                    </ul>
-
-                </div>
-
-            </div>
-            
-        </x-card>
 
     </div>
 

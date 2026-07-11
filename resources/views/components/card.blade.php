@@ -1,8 +1,6 @@
-@props([
-    'icon' => 'fa f-bi',
-    'title' => 'Country Name',
-    'alt' => 'Card thumbnail',
-])
+@props(
+    ['items']
+)
 
 <div class="w-full rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
 
