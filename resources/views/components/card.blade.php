@@ -7,7 +7,7 @@
 <div class="w-full rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
 
     <!-- Header Container: This places the icon and title right next to each other -->
-    <div class="flex items-center gap-4">
+    <div class="flex items-center">
 
         <!-- Icon -->
         <div class="flex h-15 w-15 shrink-0 items-center justify-center rounded-md bg-gray-100 text-xl text-gray-600">
@@ -30,7 +30,7 @@
     </div>
 
     <!-- Bottom Container: Blurb text underneath -->
-    <div class="mt-4">
+    <div>
         <p class="text-sm leading-relaxed text-gray-600">
             {{ $slot }}
         </p>

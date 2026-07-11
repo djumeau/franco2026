@@ -72,7 +72,7 @@
     </div>
 
     <!-- 2. The Data Cards Workspace -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="">
         @foreach($tabs as $tabKey => $tabInfo)
 
             @php
@@ -85,7 +85,7 @@
             @if(is_array($countryData) && isset($countryData['cards']) && is_array($countryData['cards']))
 
                 <!-- Card visibility tracking container tagged with its country/tab key -->
-                <div class="country-group-wrapper flex-col md:flex-col-2 space-y-4" data-country="{{ $tabKey }}">
+                <div class="country-group-wrapper grid grid-cols-1 md:grid-cols-2 gap-4 space-y-4" data-country="{{ $tabKey }}">
 
                    <!-- {{$countryData['title']}} -->
                     
@@ -94,10 +94,32 @@
                         <x-card
                           title="{{$card['title'] ?? 'Untitled Card'}}"
                           icon="{{$card['icon'] ?? 'fa-solid fa-church'}}">
-                          <ul class="list-disc text-black pl-5">
+                          
+                          @if(!empty($card['key-verse']))
+
+                            <div class='w-fit bg-slate-800 text-white shrink rounded-xl p-3 px-3'>
+                                
+                                @if(!empty($card['key-verse-link']))
+                                    <a href="#" class="hover:underline" _target="blank">{{$card['key-verse']}}</a>
+                                @else
+                                    {{$card['key-verse']}}
+                                @endif
+
+                            </div>
+
+                          @endif
+
+                          
+                          <ul class="list-disc text-black pt-2 pl-5">
+                            
+
                             <li>Item-1</li>
+
+                        
                           </ul>
-                        </x-card>                    
+
+                        </x-card>
+                                    
                     @endforeach
 
                 </div> <!-- End country-group-wrapper -->
