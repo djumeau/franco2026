@@ -97,7 +97,7 @@
                           
                           @if(!empty($card['key-verse']))
 
-                            <div class='w-fit bg-slate-800 text-white shrink rounded-xl p-3 px-3'>
+                            <div class='w-fit bg-slate-800 text-white shrink rounded-xl mt-2 p-3 px-3'>
                                 
                                 @if(!empty($card['key-verse-link']))
                                     <a href="#" class="hover:underline" _target="blank">{{$card['key-verse']}}</a>
@@ -109,13 +109,14 @@
 
                           @endif
 
-                          
                           <ul class="list-disc text-black pt-2 pl-5">
-                            
 
-                            <li>Item-1</li>
+                          @foreach($card['prayer-topics'] as $prayerKey => $prayerTopic) 
 
-                        
+                            <li>{{$prayerTopic}}</li>
+
+                          @endforeach
+
                           </ul>
 
                         </x-card>
