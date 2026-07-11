@@ -15,6 +15,12 @@ return [
                     'name' => 'Programme',
                     'type' => 'pdf',
                     'filename' => '2026_cbfe_programme.pdf',
+
+                'file-2' => [
+                    'name' => 'Informations Générales',
+                    'type' => 'pdf',
+                    'filename' => '2026_cbfe_info_fr.pdf',
+                ],
                 ],
             ],
         ],
