@@ -6,6 +6,15 @@
     $downloadTitle = __('prayertopics/general.download.title');
     $filepath = __('prayertopics/general.download.filepath');
 
+    // Define tabs matching your file names and their respective visual display elements
+    $tabs = [
+        'world'         => ['label' => $en ? 'World' : 'Monde', 'icon' => 'fa-solid fa-globe', 'file' => 'general'],
+        'belgium'     => ['label' => $en ? 'Belgium' : 'Bruxelles', 'icon' => 'fi fi-be', 'file' => 'beligium'],
+        'canada'      => ['label' => $en ? 'Canada' : 'Canada', 'icon' => 'fi fi-ca', 'file' => 'canada'],
+        'france'      => ['label' => $en ? 'France' : 'France', 'icon' => 'fi fi-fr', 'file' => 'france'],
+        'switzerland' => ['label' => $en ? 'Switzerland' : 'Suisse', 'icon' => 'fi fi-ch', 'file' => 'switzerland'],
+    ];
+
 @endphp
 
 <x-layout>
@@ -40,10 +49,20 @@
         </a>
     </div>
 
-    {{-- Prayer Topics - Button Layout --}}
+    {{-- Prayer Topics --}}
 
-    <div class='w-full grid grid-cols-1 gap-4 md:gap-6 md:grid-cols-3'>
-
+    <!-- 1. The Interactive Flag/Tab Navigation Bar -->
+    <div class="flex flex-wrap gap-2 border-b border-gray-200 pb-4 mb-6">
+        @foreach($tabs as $tabKey => $tabInfo)
+            <button 
+                type="button"
+                onclick="switchTab('{{ $tabKey }}')"
+                id="tab-btn-{{ $tabKey }}"
+                class="tab-button flex items-center gap-2 px-4 py-2 border rounded-full text-sm font-medium transition cursor-pointer"
+            >
+                <i class="{{$tabInfo['icon']}}"></i> {{ $tabInfo['label'] }}
+            </button>
+        @endforeach
     </div>
 
 
