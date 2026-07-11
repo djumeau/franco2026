@@ -8,12 +8,18 @@
 
     // Define tabs matching your file names and their respective visual display elements
     $tabs = [
-        'world'         => ['label' => $en ? 'World' : 'Monde', 'icon' => 'fa-solid fa-globe', 'file' => 'general'],
-        'belgium'     => ['label' => $en ? 'Belgium' : 'Bruxelles', 'icon' => 'fi fi-be', 'file' => 'beligium'],
-        'canada'      => ['label' => $en ? 'Canada' : 'Canada', 'icon' => 'fi fi-ca', 'file' => 'canada'],
-        'france'      => ['label' => $en ? 'France' : 'France', 'icon' => 'fi fi-fr', 'file' => 'france'],
+        'world' => ['label' => $en ? 'General' : 'Générale', 'icon' => 'fa-solid fa-globe', 'file' => 'general'],
+    ];
+
+    /*
+    $tabs = [
+        'world' => ['label' => $en ? 'World' : 'Monde', 'icon' => 'fa-solid fa-globe', 'file' => 'general'],
+        'belgium' => ['label' => $en ? 'Belgium' : 'Bruxelles', 'icon' => 'fi fi-be', 'file' => 'belgium'],
+        'canada' => ['label' => $en ? 'Canada' : 'Canada', 'icon' => 'fi fi-ca', 'file' => 'canada'],
+        'france' => ['label' => $en ? 'France' : 'France', 'icon' => 'fi fi-fr', 'file' => 'france'],
         'switzerland' => ['label' => $en ? 'Switzerland' : 'Suisse', 'icon' => 'fi fi-ch', 'file' => 'switzerland'],
     ];
+    */
 
 @endphp
 
@@ -65,5 +71,34 @@
         @endforeach
     </div>
 
+    <!-- 2. The Data Cards Workspace -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        @foreach($tabs as $tabKey => $tabInfo)
+
+            @php
+                // Fetch the country group data object from the localization file
+                $countryFileName = "prayertopics/" . $tabInfo['file'] . ".group";
+                $countryData = __( $countryFileName );  
+            @endphp
+
+            {{-- Safety Check: Verify that the country group object is a valid array with a cards collection --}}
+            @if(is_array($countryData) && isset($countryData['cards']) && is_array($countryData['cards']))
+
+                <!-- Card visibility tracking container tagged with its country/tab key -->
+                <div class="country-group-wrapper" data-country="{{ $tabKey }}">
+
+                   <!-- {{$countryData['title']}} -->
+                    
+                   @foreach($countryData['cards'] as $cardKey => $card)
+                        {{-- This will print the title if it exists, or 'Untitled Card' if it doesn't --}}
+                        <p>{{ $card['title'] ?? 'Untitled Card' }}</p>                        
+                    @endforeach
+
+                </div> <!-- End country-group-wrapper -->
+
+            @endif
+            
+        @endforeach
+    </div>
 
 </x-layout>

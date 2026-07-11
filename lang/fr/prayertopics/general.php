@@ -48,7 +48,7 @@ return [
             ],
 
             "card-3" => [
-                "name" => "Pour la mission mondiale",
+                "title" => "Pour la mission mondiale",
                 "icon" => "fa-solid fa-globe",
                 "key-verse" => null,
                 "key-verse-link" => null,
