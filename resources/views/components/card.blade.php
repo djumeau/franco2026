@@ -1,6 +1,8 @@
-@props(
-    ['items']
-)
+@props([
+    'title' => 'Untitled Card', // You can assign default fallback strings
+    'icon' => 'fa-solid fa-hands-praying',
+    'alt' => 'Card icon'
+])
 
 <div class="w-full rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
 

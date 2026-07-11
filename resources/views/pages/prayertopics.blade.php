@@ -85,13 +85,19 @@
             @if(is_array($countryData) && isset($countryData['cards']) && is_array($countryData['cards']))
 
                 <!-- Card visibility tracking container tagged with its country/tab key -->
-                <div class="country-group-wrapper" data-country="{{ $tabKey }}">
+                <div class="country-group-wrapper flex-col md:flex-col-2 space-y-4" data-country="{{ $tabKey }}">
 
                    <!-- {{$countryData['title']}} -->
                     
                    @foreach($countryData['cards'] as $cardKey => $card)
                         {{-- This will print the title if it exists, or 'Untitled Card' if it doesn't --}}
-                        <p>{{ $card['title'] ?? 'Untitled Card' }}</p>                        
+                        <x-card
+                          title="{{$card['title'] ?? 'Untitled Card'}}"
+                          icon="{{$card['icon'] ?? 'fa-solid fa-church'}}">
+                          <ul class="list-disc text-black pl-5">
+                            <li>Item-1</li>
+                          </ul>
+                        </x-card>                    
                     @endforeach
 
                 </div> <!-- End country-group-wrapper -->
