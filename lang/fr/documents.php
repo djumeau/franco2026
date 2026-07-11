@@ -18,6 +18,12 @@ return [
                 ],
 
                 'file-2' => [
+                    'name' => "À lire - Détails avant la conférence",
+                    'type' => 'pdf',
+                    'filename' => '2026_cbfe_communique_participants_fr.pdf',                
+                ],
+
+                'file-3' => [
                     'name' => 'Visite guidée après la conférence (Invités)',
                     'type' => 'pdf',
                     'filename' => '2026_cbfe_info_fr.pdf',                

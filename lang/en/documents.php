@@ -19,6 +19,12 @@ return [
                 ],
 
                 'file-2' => [
+                    'name' => "Important! - Pre-conference details",
+                    'type' => 'pdf',
+                    'filename' => '2026_cbfe_communique_participants_en.pdf',                
+                ],
+
+                'file-3' => [
                     'name' => 'Post-conference Tour (Guests)',
                     'type' => 'pdf',
                     'filename' => '2026_cbfe_info_en.pdf',
