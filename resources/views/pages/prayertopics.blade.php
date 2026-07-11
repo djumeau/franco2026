@@ -8,7 +8,7 @@
 
     // Define tabs matching your file names and their respective visual display elements
     $tabs = [
-        'canada' => ['label' => $en ? 'Canada' : 'Canada', 'icon' => 'fi fi-ca', 'file' => 'canada'],
+        'france' => ['label' => $en ? 'France' : 'France', 'icon' => 'fi fi-fr', 'file' => 'france'],
     ];
 
     /*
@@ -100,7 +100,7 @@
                             <div class='w-fit bg-slate-800 text-white shrink rounded-xl mt-2 p-3 px-3'>
                                 
                                 @if(!empty($card['key-verse-link']))
-                                    <a href="#" class="hover:underline" _target="blank">{{$card['key-verse']}}</a>
+                                    <a href="{{$card['key-verse-link']}}" class="hover:underline" _target="blank">{{$card['key-verse']}}</a>
                                 @else
                                     {{$card['key-verse']}}
                                 @endif
