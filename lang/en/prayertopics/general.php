@@ -5,7 +5,7 @@ return [
     "title" => "Prayer Topics",
 
     "download" => [
-        "title" => "Download",
+        "title" => "Download (French)",
         "filepath" => "documents/2026_cbfe_priere.pdf",
     ],
 

@@ -46,7 +46,7 @@
             href="{{Storage::url($filepath)}}"
             target="_blank" 
             download 
-            class="inline-flex items-center gap-3 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-700 shadow-xs transition-colors duration-150 hover:bg-gray-50 hover:text-red-600 focus:outline-hidden focus:ring-4 focus:ring-gray-100"
+            class="inline-flex items-center gap-3 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-700 shadow-xs transition-colors duration-150 hover:bg-gray-50 hover:underline hover:text-red-600 focus:outline-hidden focus:ring-4 focus:ring-gray-100"
         >
             <!-- Font Awesome PDF Icon -->
             <i class="fa-solid fa-file-pdf text-lg text-red-500 transition-colors duration-150 group-hover:text-red-600"></i>
