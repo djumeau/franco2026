@@ -8,7 +8,7 @@
 
     // Define tabs matching your file names and their respective visual display elements
     $tabs = [
-        'france' => ['label' => $en ? 'France' : 'France', 'icon' => 'fi fi-fr', 'file' => 'france'],
+        'switzerland' => ['label' => $en ? 'Switzerland' : 'Suisse', 'icon' => 'fi fi-ch', 'file' => 'switzerland'],
     ];
 
     /*
