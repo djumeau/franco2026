@@ -7,11 +7,10 @@
     $filepath = __('prayertopics/general.download.filepath');
 
     // Define tabs matching your file names and their respective visual display elements
-    $tabs = [
-        'switzerland' => ['label' => $en ? 'Switzerland' : 'Suisse', 'icon' => 'fi fi-ch', 'file' => 'switzerland'],
-    ];
+    // $tabs = [
+    //     'switzerland' => ['label' => $en ? 'Switzerland' : 'Suisse', 'icon' => 'fi fi-ch', 'file' => 'switzerland'],
+    // ];
 
-    /*
     $tabs = [
         'world' => ['label' => $en ? 'World' : 'Monde', 'icon' => 'fa-solid fa-globe', 'file' => 'general'],
         'belgium' => ['label' => $en ? 'Belgium' : 'Belgique', 'icon' => 'fi fi-be', 'file' => 'belgium'],
@@ -19,7 +18,6 @@
         'france' => ['label' => $en ? 'France' : 'France', 'icon' => 'fi fi-fr', 'file' => 'france'],
         'switzerland' => ['label' => $en ? 'Switzerland' : 'Suisse', 'icon' => 'fi fi-ch', 'file' => 'switzerland'],
     ];
-    */
 
 @endphp
 
@@ -129,5 +127,45 @@
             
         @endforeach
     </div>
+
+    @push('scripts')
+
+    <script>
+
+        function switchTab(targetCountry) {
+
+            const cards = document.querySelectorAll('.country-group-wrapper');
+            const buttons = document.querySelectorAll('.tab-button');
+
+            cards.forEach(card => {
+                const cardCountry = card.getAttribute('data-country');
+                const isMatch = targetCountry === 'all' || cardCountry === targetCountry;
+                card.style.display = isMatch ? 'block' : 'none';
+                
+                const indicator = card.querySelector('.country-indicator');
+                if (indicator) {
+                    indicator.style.display = targetCountry === 'all' ? 'block' : 'none';
+                }
+            });
+
+            buttons.forEach(btn => {
+                if (btn.id === `tab-btn-${targetCountry}`) {
+                    btn.classList.add('bg-blue-100', 'border-blue-500', 'text-blue-700');
+                    btn.classList.remove('bg-white', 'border-gray-300', 'text-gray-700');
+                } else {
+                    btn.classList.remove('bg-blue-100', 'border-blue-500', 'text-blue-700');
+                    btn.classList.add('bg-white', 'border-gray-300', 'text-gray-700');
+                }
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+                console.log('Content loaded.');
+                switchTab('world');
+        });
+
+    </script>
+
+    @endpush
 
 </x-layout>

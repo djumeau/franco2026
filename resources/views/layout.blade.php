@@ -63,6 +63,9 @@
 
     <x-footer />
     
+    <!-- This pulls scripts pushed by individual view templates dynamically -->
+    @stack('scripts')
+    
 </body>
 
 </html>
