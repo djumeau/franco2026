@@ -18,7 +18,7 @@ return [
                 ],
 
                 'file-2' => [
-                    'name' => 'Informations Générales',
+                    'name' => 'Visite guidée après la conférence (Invités)',
                     'type' => 'pdf',
                     'filename' => '2026_cbfe_info_fr.pdf',                
                 ],

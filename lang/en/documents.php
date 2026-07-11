@@ -19,7 +19,7 @@ return [
                 ],
 
                 'file-2' => [
-                    'name' => 'General Information',
+                    'name' => 'Post-conference Tour (Guests)',
                     'type' => 'pdf',
                     'filename' => '2026_cbfe_info_en.pdf',
                 ],
