@@ -8,13 +8,13 @@
 
     // Define tabs matching your file names and their respective visual display elements
     $tabs = [
-        'world' => ['label' => $en ? 'General' : 'Générale', 'icon' => 'fa-solid fa-globe', 'file' => 'general'],
+        'canada' => ['label' => $en ? 'Canada' : 'Canada', 'icon' => 'fi fi-ca', 'file' => 'canada'],
     ];
 
     /*
     $tabs = [
         'world' => ['label' => $en ? 'World' : 'Monde', 'icon' => 'fa-solid fa-globe', 'file' => 'general'],
-        'belgium' => ['label' => $en ? 'Belgium' : 'Bruxelles', 'icon' => 'fi fi-be', 'file' => 'belgium'],
+        'belgium' => ['label' => $en ? 'Belgium' : 'Belgique', 'icon' => 'fi fi-be', 'file' => 'belgium'],
         'canada' => ['label' => $en ? 'Canada' : 'Canada', 'icon' => 'fi fi-ca', 'file' => 'canada'],
         'france' => ['label' => $en ? 'France' : 'France', 'icon' => 'fi fi-fr', 'file' => 'france'],
         'switzerland' => ['label' => $en ? 'Switzerland' : 'Suisse', 'icon' => 'fi fi-ch', 'file' => 'switzerland'],
