@@ -25,7 +25,7 @@
             @if(request()->routeIs('prayertopics'))
                 <span class="font-bold text-white">{{__('prayertopics/general.title')}}</span>
             @else
-                <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics.title')}}</a>
+                <a href="{{route('prayertopics')}}" class="hover:text-white hover:underline underline-offset-2 transition-colors">{{__('prayertopics/general.title')}}</a>
             @endif
             
         </div>
