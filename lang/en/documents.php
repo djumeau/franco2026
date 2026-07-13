@@ -29,6 +29,12 @@ return [
                     'type' => 'pdf',
                     'filename' => '2026_cbfe_info_en.pdf',
                 ],
+
+                'file-4' => [
+                    'name' => 'Group Bible Studies',
+                    'type' => 'pdf',
+                    'filename' => '2026_cbfe_gbs.pdf',
+                ],
             ],
         ],
 
