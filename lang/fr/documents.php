@@ -32,7 +32,7 @@ return [
                 "file-4" => [
                     "name" => "Groupe d'études biblique",
                     "type" => "pdf",
-                    "filename" => "2026_cbfe_gbs.pdf",                
+                    "filename" => "2026_cbfe_gbs_v3.pdf",                
                 ],
             ],
         ],
