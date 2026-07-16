@@ -74,7 +74,24 @@ return [
                     'filename' => 'jn_09.01-41.q.en.docx',
                 ],
             ],
-        ],          
+        ],
+        
+        'cat-3' => [
+            'name' => 'Messages',
+            'directory' => 'documents/messages',
+            'files' => [
+
+                'file-1' => [
+                    'name' => 'Message 1 - God Saves What Was Lost - Philip Wong',
+                    'passage' => 'Luke 15:1-41',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Luke%2015%3A1-41&version=NIV',
+                    'type' => 'pdf',
+                    'filename' => '2026CBFE-Message1_Luc15_PhilipWong_FINAL_EN.pdf',
+                ],
+
+            ],
+        ],
+
     ],
 
 ];
