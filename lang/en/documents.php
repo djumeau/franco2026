@@ -89,6 +89,15 @@ return [
                     'filename' => '2026CBFE-Message1_Luc15_PhilipWong_FINAL_EN.pdf',
                 ],
 
+                
+                'file-2' => [
+                    'name' => 'Message 2 - He Has the Words of Eternal Life - David Jumeau',
+                    'passage' => 'John 6:1-71',
+                    'link' => 'https://www.biblegateway.com/passage/?search=John%201%3A1-71&version=NIV',
+                    'type' => 'pdf',
+                    'filename' => 'CBFE2026_Message2_Jean6.01-71_DavidJumeau_FINAL_EN.pdf',
+                ],
+
             ],
         ],
 

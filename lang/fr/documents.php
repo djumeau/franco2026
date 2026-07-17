@@ -88,6 +88,14 @@ return [
                     'filename' => '2026CBFE-Message1_Luc15_PhilipWong_FINAL.pdf',
                 ],
 
+                'file-2' => [
+                    'name' => 'Message 2 - Il détient les paroles de la vie éternelle - David Jumeau',
+                    'passage' => 'John 6.1-71',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%201%3A1-71&version=SG21',
+                    'type' => 'pdf',
+                    'filename' => 'CBFE2026_Message2_Jean6.01-71_DavidJumeau_FINAL.pdf',
+                ],
+
             ],
         ],
     ],
