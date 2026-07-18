@@ -91,9 +91,17 @@ return [
                 'file-2' => [
                     'name' => 'Message 2 - Il détient les paroles de la vie éternelle - David Jumeau',
                     'passage' => 'Jean 6.1-71',
-                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%201%3A1-71&version=SG21',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%206%3A1-71&version=SG21',
                     'type' => 'pdf',
                     'filename' => 'CBFE2026_Message2_Jean6.01-71_DavidJumeau_FINAL.pdf',
+                ],
+
+                'file-3' => [
+                    'name' => 'Message 3 - Jésus, la lumière du monde - Timothée Lee',
+                    'passage' => 'Jean 9.1-41',
+                    'link' => 'https://www.biblegateway.com/passage/?search=Jean%209%3A1-41&version=SG21',
+                    'type' => 'pdf',
+                    'filename' => 'CBFE2026_Message3-Jean9_TimotheeLee_FINAL.pdf',
                 ],
 
             ],
