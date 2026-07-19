@@ -98,6 +98,22 @@ return [
                     'filename' => 'CBFE2026_Message2_Jean6.01-71_DavidJumeau_FINAL_EN.pdf',
                 ],
 
+                'file-3' => [
+                    'name' => 'Message 3 - Jesus, the Light of the World - Timothée Lee',
+                    'passage' => 'John 9.1-41',
+                    'link' => 'https://www.biblegateway.com/passage/?search=John%209%3A1-41&version=NIV',
+                    'type' => 'pdf',
+                    'filename' => 'CBFE2026_Message3-Jean9_TimotheeLee_FINAL_EN.pdf',
+                ],
+
+                'file-4' => [
+                    'name' => 'Message 4 - A Living Hope - Bruno Aussant',
+                    'passage' => '1 Peter 1.3-4',
+                    'link' => 'https://www.biblegateway.com/passage/?search=1Peter%201%3A3-4&version=NIV',
+                    'type' => 'pdf',
+                    'filename' => 'CBFE2026_Message4-1P1.3-4_BrunoAussant_FINAL_EN.pdf',
+                ],
+
             ],
         ],
 

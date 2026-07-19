@@ -104,6 +104,14 @@ return [
                     'filename' => 'CBFE2026_Message3-Jean9_TimotheeLee_FINAL.pdf',
                 ],
 
+                'file-4' => [
+                    'name' => 'Message 4 - Une espérance vivante - Bruno Aussant',
+                    'passage' => '1 Pierre 1.3-4',
+                    'link' => 'https://www.biblegateway.com/passage/?search=1Pierre%201%3A3-4&version=SG21',
+                    'type' => 'pdf',
+                    'filename' => 'CBFE2026_Message4-1P1.3-4_BrunoAussant_FINAL.pdf',
+                ],
+
             ],
         ],
     ],
